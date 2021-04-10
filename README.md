@@ -29,7 +29,7 @@ python3 -m pip install requests
   ```
 - [第25行到第56行的上报信息](https://github.com/Sieroy/HitszEpidemicSubmitter/blob/20c2ac53259b123f7e5d5e2199a300b1dbf6fa7b/HITreportor.py#L25)
   
-  其中已经填好默认值，如果有需要更改的信息，请参照所在行注释来填写。比如，如果你想修改体温为37.3℃，需要更改[37行](https://github.com/Sieroy/HitszEpidemicSubmitter/blob/20c2ac53259b123f7e5d5e2199a300b1dbf6fa7b/HITreportor.py#L37)为`"brzgtw": "37.3",`。
+  其中已经填好默认值，如果有需要更改的信息，请参照所在行注释来填写。比如，如果你想修改体温为37.3℃，需要更改[体温信息所在行](https://github.com/Sieroy/HitszEpidemicSubmitter/blob/20c2ac53259b123f7e5d5e2199a300b1dbf6fa7b/HITreportor.py#L37)为`"brzgtw": "37.3",`。
 
 ## 自动上报
 
