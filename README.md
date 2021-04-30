@@ -33,7 +33,7 @@ python3 -m pip install requests
 
 ## 自动上报
 
-如果想实现每日自动上报，对于Linux用户，直接上`cron`即可；对于Windows用户，可以[设置任务计划](https://jingyan.baidu.com/article/9080802200cc15fd91c80fcf.html)来实现自动化。如果保证不了实时开机的话，可以在校园网内通过我的[服务器](http://10.249.77.65/app/epidemic.html)来自动执行，但要提供你的学号密码哦~~ （树莓派服务器正在降温中，暂时用不了呜呜呜）
+如果想实现每日自动上报，对于Linux用户，直接上`cron`即可；对于Windows用户，可以[设置任务计划](https://jingyan.baidu.com/article/9080802200cc15fd91c80fcf.html)来实现自动化。~~如果保证不了实时开机的话，可以在校园网内通过我的[服务器](http://10.249.77.65/app/epidemic.html)来自动执行，但要提供你的学号密码哦~~ （树莓派服务器正在降温中，暂时用不了呜呜呜）
 
 ## 最后
 
