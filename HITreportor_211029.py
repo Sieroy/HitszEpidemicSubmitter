@@ -7,7 +7,8 @@ from time import sleep
 
 json_encoder = JSONEncoder()
 
-# 请确保使用期间其他地方的HIT学工账号已经退出
+# 请确保使用期间其他地方的HIT学工账号已经退出。
+# 若已经完成了今日的上报，或许会报错。
 
 login_param = {
     'username': '',  # 学号
@@ -137,7 +138,7 @@ report = lambda my_token: {'info': json_encoder.encode({
         # 如果在上面填写了身体不适，且已确诊为其他情况，填写下面一项（格式不对劲，推荐通过学工系统手动填写）
         "kzl34":{},
 
-        # 以下保留即可
+        # 以下三项需与上面位置信息的省、市、区对应。
         "kzl38":"广东省",
         "kzl39":"深圳市",
         "kzl40":"南山区"
